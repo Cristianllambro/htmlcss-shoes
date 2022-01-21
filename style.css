@@ -4,20 +4,37 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 img{
     display: block;
     width: 100%;
 }
 
-.size {
+#size1 {
     width: 100%;
     height: 100vh;
     position: relative;
+    background-color:#A52A2A;
+    color: gold;
 }
 
-.top{
-    background-color: #ff0000;
-    color: #ffff00;
+#size2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #228B22;
+    color: gold;
+}
+
+#size3{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #F08080;
+    color: gold;
 }
 
 .content{
@@ -37,33 +54,50 @@ h1{
     text-align: center;
 }
 
-.center{
-    background-color: #008000;
-    color: #ffff00;
-}
-
-.bottom{
-    background-color: #ffff00;
-    color: #008000 ;
-}
-
-.button,{
+a{
     position: fixed;
-    width: 50px;
+    width: 120px;
     height: 50px;
+    border-radius: 5px;
     background-color: white;
-    border-radius: 50%;
+    color: black;
+    text-align: center;
     line-height: 50px;
     font-size: 25px;
     font-weight: 600;
-    position: absolute;
-    top: 3%;
-    right: 3%;
-    z-index: 5;
-    text-align: center;
+    box-shadow: 5px ;
+    text-decoration: none;
+    transition-duration: 0.3s;
 }
 
-a{
-    text-decoration: none;
+.three{
+    position: absolute;
+    top: 3%;
+    right: 8%;
+    z-index: 5;
+}
+
+.two{
+    position: absolute;
+    top: 3%;
+    right: 16%;
+    z-index: 5;
+}
+
+.one{
+    position: absolute;
+    top: 3%;
+    right: 24%;
+    z-index: 5;
+}
+
+
+a:active{
+    background-color: lightgray;
+}
+
+a:active, a:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transform: scale(1.1);
 }
 
