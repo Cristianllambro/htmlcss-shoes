@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    width: ;
+}
+
+.size {
+    width: 100%;
+    height: 100vh;
+}
+
+.top{
+    background-color: red;
+}
+
+
+
+
+
+.center{
+    background-color: green;
+}
+
+.bottom{
+    background-color: gold;
+}
